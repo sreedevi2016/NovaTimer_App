@@ -55,6 +55,8 @@ function App() {
   return (
     <>
       <div>I am App</div>
+      <title>Nova Timer App</title>
+      <meta name="description" content="i am nova timer app"></meta>
       <p>I am Nova Timer App</p>
       <input type="text" placeholder="search" ref={inputRef} />
       <button type="submit" onClick={handlSubmit}>
